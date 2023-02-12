@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # Documentation for the LXI API Spec Generation
 
 This directory includes the LXI API schemas, and the tools used
