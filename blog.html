@@ -7,7 +7,7 @@ title: Blog
 <ul>
   {% for post in site.posts %}
     <li>
-      <div style="color:cornsilk;width: 50px;">
+      <div style="background: #ddf; padding: 10px 30px; border-radius: 1em;">
         <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
         Written by {{ post.author }}, <a href="{{ post.pdf }}">PDF</a>
         {{ post.excerpt }}
