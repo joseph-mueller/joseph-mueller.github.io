@@ -1,7 +1,16 @@
 source 'https://rubygems.org'
 
-gem "jekyll" # installed by `gem jekyll`
-# gem "webrick"        # required when using Ruby >= 3 and Jekyll <= 4.2.2
+gem "jekyll", "~> 4.3"
 
-#gem "just-the-docs", "0.5.0" # pinned to the current release
-gem "just-the-docs"        # always download the latest release
+gem "webrick"
+
+gem "jekyll-github-metadata"
+
+#gem "jekyll-remote-theme"
+
+#gem "just-the-docs", "0.4.0" # pinned to the current release
+gem "just-the-docs"
+
+#gem 'jekyll-sitemap'
+
+#gem 'jekyll-redirect-from'
