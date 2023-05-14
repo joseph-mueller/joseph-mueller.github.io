@@ -1,2 +1,8 @@
+title: Joe and Huong Web
+description: Miscellaneous personal stuff
 theme: just-the-docs
-  
+
+url: https://www.joenhuong.com
+
+aux_links:
+  Template Repository: https://github.com/just-the-docs/just-the-docs-template
