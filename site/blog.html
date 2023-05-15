@@ -1,0 +1,20 @@
+---
+layout: default
+title: Blog
+---
+<h1>Discussion Guides</h1>
+<p>These are discussion guides for the Mueller Bible study group.</p>
+<ul>
+  {% for post in site.posts %}
+    <li>
+      
+        <h2><a href="{{ post.url }}">{{ post.titlex }}</a></h2>
+        <p>
+          Written by {{ post.author }}, <a href="{{ post.pdf }}">PDF</a>
+        </p>
+        <div style="background: #ddf; font-size:small; padding: 10px 30px; border-radius: 1em;">
+          {{ post.excerpt }}
+        </div>
+    </li>
+  {% endfor %}
+</ul>
