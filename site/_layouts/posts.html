@@ -2,6 +2,6 @@
 layout: default
 ---
 <h1>{{ page.titlex }} <a href="{{ page.pdf }}">PDF</a> </h1>
-<p>{{ page.date | date_to_string }} - {{ page.author }}</p>
+<p>{{ page.date | date_to_string }} - for discussion: {{ page.target_date }}</p>
 
 {{ content }}
