@@ -161,7 +161,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-github-metadata
   #- jekyll-sitemap
-  #- jekyll-redirect-from
+  - jekyll-redirect-from
 
 # jekyll-sitemap: list of folders, which shall not be part of sitemap.xml
 defaults:
